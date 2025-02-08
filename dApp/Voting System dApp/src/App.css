@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff; /* Light blue background */
+  margin: 0;
+  padding: 0;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  color: #1E3A8A; /* Dark blue */
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.8em;
+}
+
+/* Main container to center everything */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Form styling */
+form {
+  width: 100%;
+  max-width: 500px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Label styling */
+label {
+  font-size: 16px;
+  color: #1E3A8A; /* Dark blue */
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+/* Input fields styling */
+input[type="number"],
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #1E3A8A;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus,
+input[type="date"]:focus {
+  border-color: #1D4ED8; /* Lighter blue */
+  outline: none;
+}
+
+/* Button styling */
+button {
+  background-color: #1D4ED8; /* Blue button */
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 12px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #2563EB; /* Darker blue on hover */
+  transform: scale(1.05);
+}
+
+button:disabled {
+  background-color: #A5B4FC; /* Light blue for disabled button */
+  cursor: not-allowed;
+}
+
+button[type="button"] {
+  background-color: #6B7280; /* Grey button */
+}
+
+button[type="button"]:hover {
+  background-color: #4B5563; /* Darker grey for hover */
+}
+
+/* Centering the output text */
+p {
+  font-size: 18px;
+  color: #1D4ED8; /* Lighter blue for text */
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  form {
+    width: 100%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+/* Additional Styling for Better Visual Appeal */
+button:active {
+  transform: scale(0.98);
+}
+
+form {
+  background: #e0f2fe; /* Light blue background for the form */
+  border-radius: 15px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #1E3A8A; /* Dark blue for the header */
+}
+
+button {
+  background-color: #1D4ED8; /* Blue button color */
+}
+
+button:hover {
+  background-color: #2563EB; /* Darker blue for hover */
+}
+
+input[type="number"],
+input[type="text"],
+input[type="date"] {
+  border: 1px solid #1D4ED8;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus,
+input[type="date"]:focus {
+  border-color: #1D4ED8;
+}
+
